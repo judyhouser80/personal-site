@@ -2,9 +2,9 @@
 body {
   margin: 0;
   text-align: center;
-  color: : #66BFBF;
+  color: #66BFBF;
   font-family: Arial,"Helvetica Neue", Helvetica, sans-serif;
-  background-color: rgb(240, 223, 170);
+  background-color: rgb(228, 217, 195);  
 }
 
 h1 {
@@ -65,7 +65,7 @@ hr {
 }
 
 .middle-container {
-  margin 100px 0;
+  margin: 100px 0;
 }
 
 .bottom-container {

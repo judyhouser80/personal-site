@@ -2,13 +2,13 @@
 body {
   margin: 0;
   text-align: center;
-  color: #66BFBF;
+  color: rgb(129, 19, 52);
   font-family: Arial,"Helvetica Neue", Helvetica, sans-serif;
   background-color: rgb(228, 217, 195);  
 }
 
 h1 {
-  color:  #66BFBF;
+  color: rgb(129, 19, 52);
   font-family: 'Great Vibes', cursive;
   font-size: 5.625rem;
   line-height: 2;
@@ -18,23 +18,23 @@ h1 {
 h2 {
   font-family: 'Montserrat', sans-serif;
   font-size: 2.5rem;
-  color: #66BFBF;
+  color: rgb(129, 19, 52);
 }
 
 h3 {
   font-family: 'Merriweather', serif;
-  color:  #11999E;
+  color: rgb(129, 19, 52);
 }
 
 a {
-  color:  #11999E;
+  color: snow;
   font-family: 'Montserrat', sans-serif;
   margin: 10px 20px;
   text-decoration: none;
 }
 
 a:hover {
-  color: rgb(129, 19, 52);
+  color: #11999E;
 }
 
 p {
@@ -46,7 +46,7 @@ li {
 }
 
 hr {
-  border-color: #66BFBF;
+  border-color: rgb(129, 19, 52);
   border-style: none;
   border-top-style: dotted;
   border-width: 5px;
@@ -54,6 +54,9 @@ hr {
   margin: 100px, auto;
   }
 
+  .sites {
+color: rgb(129, 19, 52);
+  }
 .me {
   border-radius: 100%;
 }
@@ -62,6 +65,8 @@ hr {
   background-color: #e4f9f5;
   padding-top: 100px;
   position: relative;
+  /* -webkit-clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%);
+  clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%); */
 }
 
 .middle-container {
@@ -69,7 +74,7 @@ hr {
 }
 
 .bottom-container {
-  background-color: rgb(144, 190, 190);
+  background-color: rgb(129, 19, 52);
   margin-top: 50px;
   padding: 50px -0 20px;
 }
@@ -98,12 +103,12 @@ hr {
 }
 
 .butn {
-  background: #11cdd4;
-  background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
-  background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
-  background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
-  background-image: -o-linear-gradient(top, #11cdd4, #11999e);
-  background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+  background: rgb(129, 19, 52);
+  background-image: -webkit-linear-gradient(top, rgb(129, 19, 52), #11999e);
+  background-image: -moz-linear-gradient(top, rgb(129, 19, 52), #11999e);
+  background-image: -ms-linear-gradient(top, rgb(129, 19, 52), #11999e);
+  background-image: -o-linear-gradient(top, rgb(129, 19, 52), #11999e);
+  background-image: linear-gradient(to bottom, rgb(129, 19, 52), #11999e);
   -webkit-border-radius: 8;
   -moz-border-radius: 8;
   border-radius: 8px;

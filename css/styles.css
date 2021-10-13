@@ -1,66 +1,10 @@
-
-@keyframes moveInLeft {
-  0% {
-    opacity: 0;
-    transform: translateX(-10rem);
-  }
-
-  80% {
-    transform: translateX(1rem);
-  }
-
-  100% {
-    opacity: 1;
-    transform: translate(0);
-  }
-}
-
-@keyframes moveInRight {
-  0% {
-    opacity: 0;
-    transform: translateX(10rem);
-  }
-
-  80% {
-    transform: translateX(-1rem);
-  }
-
-  100% {
-    opacity: 1;
-    transform: translate(0);
-  }
-}
-
-@keyframes moveInBottom {
-  0% {
-    opacity: 0;
-    transform: translateY(3rem);
-  }
-
-  100% {
-    opacity: 1;
-    transform: translate(0);
-  }
-}
-
 .header {
   height: 55vh;
-  background-image: linear-gradient(to right bottom, rgba(56, 51, 51, 0.8), rgba(14, 2, 2, 0.8)), url(../img/office.jpg);
   background-size: cover;
   background-position: top;
   position: relative;
   -webkit-clip-path: polygon(0 0, 100% 0, 100% 55vh, 0 100%);
   clip-path: polygon(0 0, 100% 0, 100% 55vh, 0 100%);
-}
-
-.header__logo-box {
-  position: absolute;
-  top: 4rem;
-  left: 4rem;
-}
-
-.header__logo {
-  height: 5.5rem;
 }
 
 .header__text-box {
@@ -76,26 +20,26 @@ body {
   color: black;
   font-family: 'Merriweather',
   serif;  
-background-color: rgb(139, 128, 105);
+background-color: #E0C568FF;
   font-weight: bold;
 }
 
 h1 {
-  color: lightgray;
-  font-family: 'Great Vibes', cursive;
-  font-size: 5.625rem;
-  margin: 2.65rem, auto, 0 auto;
+    color: #E0C568FF;
+    font-family: 'Great Vibes', cursive;
+    font-size: 5.625rem;
+    margin: 2.65rem, auto, 0 auto;
 }
 
 h2 {
-  font-family: 'Montserrat', sans-serif;
-  font-size: 2.5rem;
-  color: lightgray;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.5rem;
+    color: #E0C568FF;
 }
 
 h3 {
-  font-family: 'Merriweather', serif;
-  color: rgba(211, 211, 211, 0.479);
+    font-family: 'Merriweather', serif;
+    color: #5F4B8BFF;
 }
 
 a {
@@ -136,11 +80,11 @@ color: black;
 }
 
 .top-container {
-  background-color: black;
-  color: lightgray;
-  padding-top: 100px;
-  position: relative;
-  /* -webkit-clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%);
+    background-color: #5F4B8BFF;
+    color: lightgray;
+    padding-top: 100px;
+    position: relative;
+    /* -webkit-clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%);
   clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%); */
 }
 
@@ -149,16 +93,10 @@ color: black;
 }
 
 .footer {
-  background-color: black;
-  margin-top: 50px;
-  padding: 50px -0 20px;
+    background-color: #5F4B8BFF;
+    margin-top: 50px;
+    padding: 50px -0 20px;
 }
-
-/* .skill-row {
-  width: 50%;
-  margin: auto;
-  text-align: center;
-} */
 
 .intro {
   width: 30%;
@@ -213,21 +151,3 @@ color: black;
   left: 47em;
   
 }
-
-/* #left {
-  width: 15%;
-  float: right;
-  padding: 1.5em;
-}
-
-#middle {
-  width: 15%;
-  float: right;
-  padding: 1.5em;
-}
-
-#right {
-  width: 15%;
-  float: right;
-  padding: 1.5em;
-} */
